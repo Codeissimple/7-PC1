@@ -30,5 +30,21 @@ for (count = 0; count < NUM_VALUES; count++)
   cout << "The smallest value entered is: ";
   cout << smallest << endl;
 
+  cout << "Jars sold last month of "
+       << "Please re-enter: ";
+  cin >> sales[type];
+
+
+  while (sales[type] < 0)
+  {
+    cout << "Jars sold must be 0 or more. "
+         << "Please re-enter: ";
+    cin >> sales[type];
+  }
+  }
+
+  totalJarsSold = getTotal(sales, )
+
+
   return 0;
 }
